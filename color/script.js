@@ -1,4 +1,4 @@
-// Create a new div element
+ // Create a new div element
 const div = document.createElement('div');
 
 // Set the ID and class of the div
