@@ -61,7 +61,7 @@ export function createTable(data, parentElement, title = "Data") {
     value.forEach((item, index) => {
         const li = document.createElement('li');
         const nestedContainer = document.createElement('div');
-        createTable(item, nestedContainer, `${key} ${index + 1}`); // Modified line
+        createTable(item, nestedContainer, `${index + 1}`); // Modified line
         li.appendChild(nestedContainer);
         ul.appendChild(li);
     });
