@@ -1,0 +1,38 @@
+/* Basic styles for the JSON container */
+#json-container {
+
+
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for sections */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Styling for table elements */
+table {display:inline;
+    width: 10%;
+    border-collapse: collapse;
+    margin-bottom: 2px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Styling for nested tables and array lists */
+.nested-table {
+    margin-top: 4px;
+    padding-left: 20px;
+}
+
+.array-list {
+    padding-left: 20px;
+    list-style-type: disc;
+}
